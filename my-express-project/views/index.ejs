@@ -1,0 +1,11 @@
+<%- include("layout/header") %>
+
+    <% for(x=0; x< messages.length; x++){ %>
+    <div class="len">
+    <h1><%= messages[x].text %></h1>
+    <h3>Welcome <%= messages[x].user %></h3>
+    <p>This messages was created at <%= messages[x].added %></p>
+  </div>
+    <% } %>
+  </body>
+</html>
