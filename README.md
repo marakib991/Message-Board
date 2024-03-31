@@ -7,11 +7,17 @@ This project demonstrates inserting a message and a author name and show them on
 Before you start, make sure you have the following installed:
 
 - Node.js (https://nodejs.org)
-- npm
-- Firebase project with Storage enabled
-
+  
 ## Installation
 
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+
+2. Install all the dependencies:
+   ```bash
+   npm i
+
+3. Run the Project:
+   ```bash
+   npm start
